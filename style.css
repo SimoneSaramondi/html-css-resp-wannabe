@@ -79,17 +79,32 @@ img {
   #why .row{
     background-color: rgb(242, 242, 205);
   }
+
+  .container.grey{
+    background-color: white;
+  }
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 50%;
+  width: 100%;
   float: none;
-  margin: auto;
   }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
   float: none;
-  width: 33%;
-  margin: auto;
+  width: 100%;
   }
+  .row{
+    margin-top: 0%;
+    padding: 20px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #why hr{
+    color: black;
+  }
+  
 }
