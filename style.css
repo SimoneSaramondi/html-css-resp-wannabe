@@ -107,6 +107,14 @@ img {
     padding: 0;
     box-sizing: border-box;
   }  
+  #why .row .first hr,
+  #why .row .second hr{
+    display: none;
+  }
+  #why .row .first,
+  #why .row .second{
+    border-bottom: 1px solid black;
+  }
 }
 
 /*Aggiunta BONUS*/
