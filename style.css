@@ -101,6 +101,59 @@ img {
     margin-top: 0%;
     padding: 20px;
   }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+}
+
+/*Aggiunta BONUS*/
+
+@media screen and (min-width: 420px) and (max-width: 768px){
+  #lezioni .row,
+  #why .row{
+    background-color: rgb(139, 223, 128);
+  }
+
+  .container.grey{
+    background-color: white;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 50%;
+  float: right;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: left;
+  width: 33.3%;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    width: 33.3%;
+    float: left;
+  }
+
+  #why .row>.first>hr,
+  #why .row>.second>hr{
+    display: none;
+  }
+
+  .row{
+    margin-top: 0%;
+    padding: 20px;
+  }
+
+  .row div{
+    padding: 10px;
+  }
   
   *{
     margin: 0;
