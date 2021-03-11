@@ -71,3 +71,25 @@ img {
 .clear {
   clear: both;
 }
+
+/*Modifice per esercizio*/
+
+@media screen and (max-width: 420px){
+  #lezioni .row,
+  #why .row{
+    background-color: rgb(242, 242, 205);
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 50%;
+  float: none;
+  margin: auto;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 33%;
+  margin: auto;
+  }
+}
